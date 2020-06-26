@@ -38,8 +38,8 @@ const sketch = ({ context }) => {
 
   // Setup a loader for textures
   const loader = new THREE.TextureLoader();
-  const earthMap = loader.load("earth.jpg");
-  const moonMap = loader.load("moon.jpg");
+  const earthMap = loader.load("images/earth.jpg");
+  const moonMap = loader.load("images/moon.jpg");
 
   // Setup a material
   const material = new THREE.MeshStandardMaterial({
